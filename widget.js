@@ -1,13 +1,12 @@
 define('MyWidget', [], function () {
-  'use strict';
   return {
     onLoad: function () {
-      const appRoot = document.createElement('div');
-      appRoot.id = 'my-app';
-      document.body.appendChild(appRoot);
+      const el = document.createElement('div');
+      el.id = 'my-app';
+      document.body.appendChild(el);
 
       const script = document.createElement('script');
-      script.src = './assets/index.js'; // built by Vite
+      script.src = './assets/index.js'; // This is your built app
       document.body.appendChild(script);
     }
   };
