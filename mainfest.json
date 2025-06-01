@@ -1,0 +1,10 @@
+{
+  "name": "Basic Widget",
+  "description": "Clean Vue 3 Widget",
+  "require": [],
+  "version": "1.0",
+  "module": "Basic Widget",
+  "xtype": "Basic Widget",
+  "category": "MyCustom",
+  "autoLoad": true
+}
